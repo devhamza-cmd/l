@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="all.min.css">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="myaccount.css"">
+    <link rel="stylesheet" href="myaccount.css">
+
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg ms-lg-5 me-lg-5">
+    <nav class="navbar navbar-expand-lg sticky-top  ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">BETTER TO GETHER</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +41,7 @@
                 </div>
                 <button class="btn btn-primary me-3 ms-3" type="submit">Search</button>
             </form>
-            <a href="myaccount.html"><img src="gamer.png" class="xs d-sm-none d-md-none d-lg-block ps-3" alt=""></a>
+            
           </div>
         </div>
       </nav>
@@ -48,7 +49,7 @@
         <div class="container">
             <div class="row d-flex justify-content-between">
               <div class="col-lg-1">
-                <nav class="xs d-sm-flex d-md-flex justify-content-around d-lg-block">
+                <nav class=" xs d-sm-flex d-md-flex justify-content-around d-lg-block  " >
                     <div><i class="fa-solid fa-code "></i></div>
                     <div><i class="fa-solid fa-pager"></i></div>
                     <div><i class="fa-regular fa-note-sticky"></i></div>
@@ -57,9 +58,19 @@
                     <div><i class="fa-solid fa-trash-can"></i></div>
                 </nav>
               </div>
-            </div>
+              <div class="first col-lg-10">
+                <div class="post d-flex align-items-center">
+                  <div class="getq">
+                    <input type="text" placeholder="  What is your problem ?">
+                  </div>
+                  <div class="publish"><button id="publish" class="btn btn-primary me-3 ms-3">Publish</button></div>
+                </div>
+                
+              </div>
+            </div>   
         </div>
     </div>
+    <script src="script.js"></script>
     <script src="all.min.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
 </body>

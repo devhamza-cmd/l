@@ -232,6 +232,7 @@ nav img{
 }
 .time div{
     color: black;
+    
 }
 .plan button{
     color: white;
@@ -269,6 +270,14 @@ nav img{
 img{
     height: 30px;
 }
+.post {
+width: 100%;
+margin: 0 auto;
+box-shadow: 3px 3px 10px 3px #dddddd;
+
+padding: 0  10px;
+
+}
 @media only screen and (max-width: 991px) {
     .time button{
         width: 85vw;
@@ -276,6 +285,10 @@ img{
     .search {
         width: 300px;
        }
+    .post{
+        width: 80vw;
+       
+    }
 }
 @media only screen and (min-width: 561px) {
    .learn ,.fs5{
@@ -283,3 +296,22 @@ img{
    }
    
 }
+.navbar{
+    background-color: white;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+    width: 100vw;
+}
+nav{
+    background-color: white;
+}
+.getq{
+    padding: 10px;
+}
+.getq input{
+    width: 60vw;
+   padding-left: 10px
+}
+.publish{
+border: none;
+}
+
